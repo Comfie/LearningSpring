@@ -2,9 +2,8 @@ package zw.co.group.springlearning.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import zw.co.group.springlearning.model.user;
+import zw.co.group.springlearning.model.User;
 
 @Repository
-public interface usersRepository extends JpaRepository<user, Long> {
-
+public interface UsersRepository extends JpaRepository<User, Long> {
 }

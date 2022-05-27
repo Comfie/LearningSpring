@@ -1,10 +1,10 @@
 package zw.co.group.springlearning.payload;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
+@Data
 public class userResponse<T> {
     private int code;
     private String description;
